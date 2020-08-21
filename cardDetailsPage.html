@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Online Store</title>
+  <style>
+    h1,
+    div {
+      text-align: center;
+    }
+
+    .button {
+      background-color: #32CD32;
+      color: white;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body style="background-color:#778899;">
+  <div id="header" style="height: 30%;">
+    <h1>The Online Store</h1>
+    <h2>Payment process</h2>
+  </div>
+  <div id="body" style="height: 20%;">
+    <p>Step 1: Fill Details</p>
+    <form>
+      <div>
+        <div>
+          <label for="cardNumber">Card Number: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input type="text" id="cardNumber" placeholder="XXXX-XXXX-XXXX-XXXX"
+            pattern="[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label class="left" for="name">Card Holder Name: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input class="right" type="text" id="cardHolderName" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label class="left" for="expiry">Date of Expiry: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input class="right" type="date" id="expiry" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label class="left" for="cvv">CVV: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input class="right" type="password" placeholder="XXX" pattern="[0-9][0-9][0-9]" inputmode="numeric" id="cvv"
+            min="100" max="999" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="pin">Card PIN: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input type="password" placeholder="XXXX" pattern="[0-9][0-9][0-9][0-9]" inputmode="numeric" id="zipCode" />
+        </div>
+      </div>
+      <p>Step 2: Select payment method</p>
+      <Button class="button" type="submit"
+        formaction="thankYouPage.html">Proceed</Button>
+    </form>
+  </div>
+</body>
+
+</html>

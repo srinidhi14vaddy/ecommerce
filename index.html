@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Online Store</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: skyblue;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        #carousel {
+            width: 100%;
+            height: 150px;
+
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+        }
+
+        #carousel .slide {
+            display: inline-block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <!--FOR MEDIUM VIEW SCREEN 4 WIDTH COLUMN, SMALL SCREEN 12 WIDTH COLUMN-->
+                <div class="col-md-4 col-sm-12 col-12 bg-light">
+                    <div class="dropdown-menu" style="text-align: right;">
+                        <!--<a href="loginSignupPage.html" target="_blank" class="dropdown-item" style="color: black;">MY
+                            ACCOUNT</a>
+                        <a href="#" class="dropdown-item" style="color: black;">CATEGORIES</a>
+                        <a href="#" class="dropdown-item" style="color: black;">CART</a>
+                        <a href="paymentPage.html" target="_blank" class="dropdown-item"
+                            style="color: black;">PAYMENT</a>
+                        <a href="index.html" target="_blank" class="dropdown-item" style="color: black;">SIGN OUT</a>-->
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">Categories</a>
+                                <div class="dropdown-content">
+                                    <a href="#">FURNITURE</a>
+                                    <a href="#">ELECTRONICS</a>
+                                    <a href="#">STATIONERY</a>
+                                </div>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">Account</a>
+                                <div class="dropdown-content">
+                                    <a href="loginSignupPage.html" target="_blank">Your Profile</a>
+                                    <a href="#">Your Cart</a>
+                                    <a href="paymentPage.html" target="_blank">Payment</a>
+                                    <a href="index.html">Sign Out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-12 text-center bg-dark">
+                        <h1
+                            style="text-align:center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: skyblue; padding: 30px;">
+                            THE ONLINE STORE</h1>
+
+                        <div id="carousel">
+                            <div class="slide">
+                                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/amazon-rivet-furniture-1533048038.jpg?crop=1.00xw:0.502xh;0,0.423xh&resize=1200:*"
+                                    width="400" height="150">
+                            </div>
+                            <div class="slide">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7D8ACq9OQRA3myHukFLC10tRr6LkSd8n6xQ&usqp=CAU"
+                                    width="400" height="150">
+                            </div>
+                            <div class="slide">
+                                <img src="https://ak.picdn.net/shutterstock/videos/1010296196/thumb/1.jpg" width="400"
+                                    height="150">
+                            </div>
+                            <div class="slide">
+                                <img src="https://i.pinimg.com/originals/6c/81/03/6c810338e51a370483ef784d499a751b.jpg"
+                                    width="400" height="150">
+                            </div>
+                            <div class="slide">
+                                <img src="https://miro.medium.com/max/10944/1*S81O15rjKfG-BFdnNC6-GQ.jpeg" width="400"
+                                    height="150">
+                            </div>
+
+                        </div>
+
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+
+            </div>
+            <center>
+                <ul>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn" >FURNITURE</a>
+                    <div class="dropdown-content">
+                        <a href="#">Sofa</a>
+                        <a href="#">Dining Table</a>
+                        <a href="#">Bed</a>
+                    </div>
+                </li>  
+            </ul>          </center>
+            <a href="Sofa Webpage.html" target="_blank"><img
+                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/amazon-rivet-furniture-1533048038.jpg?crop=1.00xw:0.502xh;0,0.423xh&resize=1200:*"
+                    alt="SOFA" width="500" height="300"></a>
+
+            <a href="Dining Table Webpage.html" target="_blank"><img
+                    src="https://cdn.shopify.com/s/files/1/0957/0236/products/HIMANI-CFT-NT-MAIN_1024x1024.jpg?v=1567244981"
+                    alt="TABLE" width="450" height="300"></a>
+            <a href="Bed Webpage.html" target="_blank"><img
+                    src="https://i.pinimg.com/originals/6c/81/03/6c810338e51a370483ef784d499a751b.jpg" alt="ROOM"
+                    width="530" height="300"> <br></a><br>
+
+
+
+
+            <center>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" >ELECTRONICS</a>
+                        <div class="dropdown-content">
+                            <a href="#">Laptop</a>
+                            <a href="#">Mobile</a>
+                            <a href="#">Printer</a>
+                        </div>
+                    </li>  
+                </ul>     
+            </center>
+            <a href="Webpage Laptop.html" target="_blank"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7D8ACq9OQRA3myHukFLC10tRr6LkSd8n6xQ&usqp=CAU"
+                    alt="laptop" width="500" height="300"></a>
+
+            <a href="Webpage Mobile (1) (1).html" target="_blank"><img
+                    src="https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-measure-a-lamp-shade-hero.jpg"
+                    alt="lamps" width="450" height="300"></a>
+            <a href="Printer Webpage.html" target="_blank"><img
+                    src="https://cdn.thewirecutter.com/wp-content/uploads/2018/10/hairdryers-lowres-6183-630x420.jpg"
+                    alt="hair appliances" width="530" height="300"><br></a><br>
+
+
+
+            <center>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" >STATIONERY</a>
+                        <div class="dropdown-content">
+                            <a href="#">Stationery</a>
+                            <a href="#">Books</a>
+                            <a href="#">Pens</a>
+                        </div>
+                    </li>  
+                </ul>     
+            </center>
+            <a href="stationary.html" target="_blank"><img
+                    src="https://ak.picdn.net/shutterstock/videos/1010296196/thumb/1.jpg" alt="Stationery" width="500"
+                    height="300"></a>
+            <a href="books.html" target="_blank"><img
+                    src="https://miro.medium.com/max/10944/1*S81O15rjKfG-BFdnNC6-GQ.jpeg" alt="books" width="450"
+                    height="300"></a>
+            <a href="pens.html" target="_blank"><img
+                    src="https://i.pinimg.com/originals/96/83/16/968316252710844df28f4362f8c007fa.jpg" alt="pens"
+                    width="530" height="300"><br></a>
+
+
+        </div>
+        </div>
+
+    </header>
+    <br><br>
+
+
+
+    <footer>
+        <div class="container">
+            <ul>
+            <div id="leftSection" style="float:left;width:45%;height:200px;">
+                <h2><strong>Get To Know Us</strong></h2>
+                <hr>
+                <a href="#" class="dropdown-item" style="color: black;">About US</a><br>
+                <a href="#" class="dropdown-item" style="color: black;">Careers</a><br>
+                <a href="#" class="dropdown-item" style="color: black;">Press Releases</a><br>
+                <a href="#" class="dropdown-item" style="color: black;">Financials</a><br>
+                <a href="#" class="dropdown-item" style="color: black;">Gifts</a><br>
+            </div>
+            
+            <div id="rightSection" style="float:right;width:50%;height:200px;">
+                <h2><strong>Connect With Us</strong></h2>
+                <hr>
+                <a href="www.facebook.com" class="dropdown-item" style="color: black;">Facebook</a><br>
+                <a href="www.twitter.com" class="dropdown-item" style="color: black;">Twitter</a><br>
+                <a href="www.instagram.com" class="dropdown-item" style="color: black;">Instagram</a><br>
+                <a href="mailto:customercare@theonlinestore.com" class="dropdown-item" style="color: black;">Customer
+                    Care</a>
+
+            </div>
+            </ul>
+
+    </footer>
+</body>
+
+</html>

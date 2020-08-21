@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Online Store</title>
+  <style>
+    h1,
+    div {
+      text-align: center;
+    }
+
+    .button {
+      background-color: #32CD32;
+      color: white;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body style="background-color:#778899;">
+  <div id="header" style="height: 30%;">
+    <h1>The Online Store</h1>
+    <h2>Payment process</h2>
+  </div>
+  <div id="body" style="height: 20%;">
+    <p>Step 1: Fill Details</p>
+    <form>
+      <div>
+        <div>
+          <label class="left" for="name">Name: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input class="right" type="text" id="name"  />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label class="left" for="mobileNumber">Mobile Number: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input class="right" type="number" id="email"  />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label class="left" for="email">Email ID: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input class="right" type="text" id="email"  />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="address">Address: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input type="text" id="address"  />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="zipCode">Zip Code: </label>
+        </div>
+        <div>
+          <!-- add required keyword later in the end-->
+          <input type="number" id="zipCode"  />
+        </div>
+      </div>
+      <p>Step 2: Select payment method</p>
+      <Button class="button" type="submit" formaction="thankYouPage.html">Cash-on-Delivery</button>
+      <Button class="button" type="submit" formaction="cardDetailsPage.html">Card</Button>
+    </form>
+  </div>
+</body>
+
+</html>

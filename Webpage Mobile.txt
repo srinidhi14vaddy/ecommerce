@@ -1,0 +1,82 @@
+ <html>
+
+<head> 
+<title>Mobile Phone</title >
+</head>
+
+<body style="background-color:Aqua;">
+<div id="outerBody" style="width:1300px;height:700px;margin:0 Auto;">
+<div id="header" style="height:200px;background:url('images/MB.jpg')">
+</div>
+
+<div id="bodyContainer"">
+  <div id="leftSection" style="float:left;width:30%;height:540px;">
+     <ul style="list-style:none;">
+     <li><h1>Login</h1></li>
+     <br>
+     <hr>
+     <li><h2>Electronics</h2></li>
+     <br>
+     <li> 
+     <hr>
+     </ul>
+       </div>
+  <div id="rightSection" style="float:right;width:70%;height:540px;">
+     <h1>Electronics</h1>
+
+        <p>
+           <h2>Product - OnePlus 8
+                         <br>
+                         OnePlus 8 (Onyx Black 8GB RAM+128GB Storage)</h2>
+          <strong>Price</strong> - 44,999.00 Inr
+           <br>
+           <br>
+           <strong>Delivery by</strong> : 3 - 5 Days of order,Inclusive of all taxes.
+           <br>
+           <br>
+           <strong>Payment Options </strong> :
+           <br>
+           Cash On Delivery eligible
+           <br>
+           Card - Credit or Debit
+           <br>
+           <br>
+           <strong>Warranty</strong>
+           <br>
+           1 Year Warranty
+           <br>
+           1 year manufacturer warranty for device and 6 months 
+           <br>
+           manufacturer warranty for in-box accessories including batteries from the date of purchase
+           <br>
+           <br>
+           <strong>Specs</strong> : . 48MP rear camera with 4K video,super slow motion,time-lapse,16MP front camera
+                   <br>
+                   . 16.637 centimeters (6.55-inch) 90Hz fluid display with 2400 x 1080 pixels resolution, 402 ppi pixel density
+                   <br>
+                   . Oxygen OS based on Android v10 operating system with 2.86GHz of clock speed with Qualcomm Snapdragon 865
+                   <br>
+                   . 4300mAH lithium-ion battery
+                   <br>
+                   <br>
+          <strong>Box also includes:</strong> . Warp charge 30 power adapter, warp type-c cable (support usb 2.0),
+                   <br>                            
+                   . OnePlus 8 with Alexa Built-in.
+                   <br>         
+                   . Memory, Storage & SIM: 8GB RAM | 128GB internal memory | Dual SIM (nano) dual-standby (5G)
+                   <br>
+                   <br>
+          <strong>Image</strong> 
+                   <br>
+                   <br> 
+          <div id="header" style="width:564px;height:610px;background:url('images/MB 2.jpg')">
+          </div>
+                   <br>
+                   <br>
+                   <strong>Buy the product</strong>
+        </p>
+</div>    
+</div>
+</body>
+
+</html>
